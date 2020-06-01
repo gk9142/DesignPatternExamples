@@ -21,4 +21,4 @@
    
    
    // SLEEP 클래스를 추가하고, ON클래스를 바꾼다.
-   // OFF,LIGHT,
+   // OFF,LIGHT,State 클래스를 건들지 않아도 된다.
