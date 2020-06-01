@@ -18,3 +18,7 @@
        else { /* do nothing */ }
      }
    }  
+   
+   
+   // SLEEP 클래스를 추가하고, ON클래스를 바꾼다.
+   // OFF,LIGHT,
