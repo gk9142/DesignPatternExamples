@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         // Iterator 패턴을 직접 사용하면
-		ThreeIntegers c = new ThreeIntegers(5,1,7);
-		Iterator<Integer> iter = c.iterator();
+		//ThreeIntegers c = new ThreeIntegers(5,1,7);
+		//Iterator<Integer> iter = c.iterator();
 
-		while (iter.hasNext()) {
+		//while (iter.hasNext()) {
 			System.out.println(iter.next());
 		}
 		
@@ -20,11 +20,11 @@ public class Main {
         //           java.lang.Itearble과 Iteartor 인터페이스를 사용하도록 수정하고,
         //           아래의 프로그램을 실행해보시오.
         
-        // c = new ThreeIntegers();
+         c = new ThreeIntegers();
 
-		// for (Integer i : c) {
-		//      System.out.println( i );
-		// }
+		 for (Integer i : c) {
+		      System.out.println( i );
+		}
 
       }
 }
